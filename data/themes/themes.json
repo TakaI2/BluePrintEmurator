@@ -1,0 +1,89 @@
+{
+  "themes": [
+    {
+      "id": "control-rig-animation",
+      "name": "コントロールリグを使った自作アニメーション",
+      "description": "UE5.6のコントロールリグ機能を使って、キャラクターの独自アニメーションを作成する方法を学びます。",
+      "targetVersion": "5.6",
+      "difficulty": "intermediate",
+      "estimatedTime": "2-3 hours",
+      "keywords": [
+        "Control Rig",
+        "Animation",
+        "IK",
+        "FK",
+        "Sequencer",
+        "キーフレーム"
+      ],
+      "prerequisiteTopics": [
+        "Unreal Engine 5の基本操作",
+        "アクタとコンポーネントの基礎知識",
+        "アニメーションの基本概念"
+      ],
+      "learningObjectives": [
+        "コントロールリグの基本概念と仕組みを理解する",
+        "リグの設定方法とボーン構造の理解",
+        "IK（Inverse Kinematics）とFK（Forward Kinematics）の違いを理解する",
+        "キーフレームアニメーションを作成できるようになる",
+        "ブループリントでアニメーションを再生する方法を習得する"
+      ],
+      "diagramTemplates": [
+        {
+          "type": "blueprint_flow",
+          "description": "アニメーション再生のブループリントフロー"
+        },
+        {
+          "type": "state_machine",
+          "description": "アニメーションステートマシン"
+        }
+      ]
+    },
+    {
+      "id": "special-move-effects",
+      "name": "必殺技演出の作成",
+      "description": "アニメーション、エフェクト、サウンド、カメラワークを組み合わせて、ゲーム内で迫力のある必殺技演出を実装します。",
+      "targetVersion": "5.6",
+      "difficulty": "intermediate",
+      "estimatedTime": "3-4 hours",
+      "keywords": [
+        "Animation",
+        "VFX",
+        "Niagara",
+        "Timeline",
+        "Camera",
+        "Sound",
+        "Input",
+        "必殺技",
+        "演出"
+      ],
+      "prerequisiteTopics": [
+        "コントロールリグの基礎",
+        "ブループリントの基本操作",
+        "入力システムの理解",
+        "アニメーションブループリントの基礎"
+      ],
+      "learningObjectives": [
+        "タイムライン機能を使った時間制御の実装",
+        "Niagaraパーティクルシステムでエフェクトを追加する",
+        "サウンドエフェクトの再生とタイミング制御",
+        "カメラシェイクと演出用カメラワークの実装",
+        "入力イベントと演出の連携",
+        "複数の要素を組み合わせた統合演出の作成"
+      ],
+      "diagramTemplates": [
+        {
+          "type": "blueprint_flow",
+          "description": "必殺技発動のブループリントフロー"
+        },
+        {
+          "type": "timeline",
+          "description": "演出タイムライン（アニメーション、VFX、サウンド、カメラ）"
+        },
+        {
+          "type": "blueprint_flow",
+          "description": "入力処理とクールダウン管理"
+        }
+      ]
+    }
+  ]
+}
